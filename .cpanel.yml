@@ -4,4 +4,4 @@ deployment:
     - export DEPLOYPATH=react-1.easypalengkepampang.com
     - cp -r * $DEPLOYPATH
   remote: origin
-  branch: master
+  branch: main
