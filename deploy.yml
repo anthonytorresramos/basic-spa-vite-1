@@ -1,0 +1,4 @@
+deployment:
+  type: rsync
+  remote: origin
+  path: /home/easyguiu/repositories/basic-spa-vite-1
