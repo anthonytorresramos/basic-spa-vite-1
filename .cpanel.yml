@@ -1,5 +1,8 @@
 deployment:
-  type: git
+  tasks:
+    # Next line defines a DEPLOYPATH with the path to the document root of your website so that you will not have to enter it in each command manually:
+    - export DEPLOYPATH=repositories/basic-spa-vite-1/
+    - cp -r * $DEPLOYPATH
   remote: origin
   branch: master
   path: /home/easyguiu/repositories/basic-spa-vite-1
