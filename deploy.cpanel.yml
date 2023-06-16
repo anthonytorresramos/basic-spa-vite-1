@@ -1,4 +1,5 @@
 deployment:
-  type: rsync
+  type: git
   remote: origin
+  branch: master
   path: /home/easyguiu/repositories/basic-spa-vite-1
